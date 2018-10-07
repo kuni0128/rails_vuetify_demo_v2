@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.20.2"
+  },
+  "dependencies": {
+    "vue": "^2.5.17",
+    "vuetify": "^1.2.6"
+  }
+}
