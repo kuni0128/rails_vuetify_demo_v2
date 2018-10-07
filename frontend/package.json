@@ -15,6 +15,7 @@
     "vuetify": "^1.2.6"
   },
   "scripts": {
-    "build": "webpack --config config/development/webpack.config.js --watch"
+    "build": "webpack --config config/development/webpack.config.js --watch",
+    "release": "webpack --config config/production/webpack.config.js"
   }
 }
