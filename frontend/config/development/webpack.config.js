@@ -1,18 +1,19 @@
-module_exports = {
+path = require('path')
+module.exports = {
   mode: 'development',
   entry: {
     application: './src/javascripts/application.js',
   },
   output: {
-    path: '../app/assets/javascripts',
+    path: '/Users/ishikawakuniaki/workspace/web/rails_vuetify_demo_v2/app/assets/javascripts/',
     filename: '[name].js'
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel'
+        loader: 'babel-loader'
       }
     ]
   }
