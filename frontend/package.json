@@ -13,5 +13,8 @@
   "dependencies": {
     "vue": "^2.5.17",
     "vuetify": "^1.2.6"
+  },
+  "scripts": {
+    "build": "webpack --config config/development/webpack.config.js --watch"
   }
 }
