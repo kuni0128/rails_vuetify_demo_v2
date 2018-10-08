@@ -2,7 +2,7 @@ path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    application: './src/javascripts/application.js',
+    application: './src/index.js',
   },
   output: {
     path: '/Users/ishikawakuniaki/workspace/web/rails_vuetify_demo_v2/app/assets/javascripts/',
