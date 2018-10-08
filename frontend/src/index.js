@@ -1,1 +1,10 @@
-console.log("Hello World!!!")
+import Vue from 'vue'
+import App from './components/App.vue'
+
+document.addEventListener('DOMContentLoaded', () => {
+  const el = document.body.appendChild(document.createElement('app'))
+  new Vue({
+    el,
+    render: h => h(App)
+  })
+})

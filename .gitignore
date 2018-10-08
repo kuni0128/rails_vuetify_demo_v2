@@ -22,7 +22,7 @@
 !/storage/.keep
 
 /frontend/node_modules
-/yarn-error.log
+/frontend/yarn-error.log
 
 /public/assets
 .byebug_history
