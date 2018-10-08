@@ -1,8 +1,15 @@
 <template>
-  <div>
+  <v-app>
     <p>Hello World from Vue.js</p>
     <counter/>
-  </div>
+
+    <v-alert
+      :value="true"
+      type="success"
+    >
+      This is a success alert.
+    </v-alert>
+  </v-app>
 </template>
 
 <script>
